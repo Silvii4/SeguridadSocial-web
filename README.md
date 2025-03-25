@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guía sobre la Seguridad Social en España</title>
     <style>
-        /* Estilos generales */
+
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -14,7 +14,7 @@
             color: #333;
         }
 
-        /* Cabecera */
+
         header {
             background: #2C3E50; /* Azul oscuro */
             color: white;
@@ -25,7 +25,7 @@
             margin-bottom: 15px;
         }
 
-        /* Menú de navegación */
+
         nav {
             background: #34495E; /* Azul más suave */
             display: flex;
@@ -49,7 +49,6 @@
             border-radius: 5px;
         }
 
-        /* Contenedor principal */
         .container {
             max-width: 900px;
             margin: 20px auto;
@@ -79,7 +78,6 @@
             padding-left: 20px;
         }
 
-        /* Imagen centrada */
         .imagen-container {
             display: flex;
             justify-content: center;
@@ -92,7 +90,6 @@
             border-radius: 8px;
         }
 
-        /* Pie de página */
         footer {
             background: #2C3E50;
             color: white;
