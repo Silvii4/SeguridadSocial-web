@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestaciones por desempleo</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Color más neutro */
+            color: #333;
+        }
+
+        /* Cabecera */
+        header {
+            background: #2C3E50; /* Azul oscuro */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 1.2em; /* Texto más pequeño */
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background: #34495E; /* Azul más suave */
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+            border-top: 2px solid #2C3E50;
+            border-bottom: 2px solid #2C3E50;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 12px;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #2C3E50;
+            border-radius: 5px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3, h4 {
+            color: #2C3E50;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 2em; /* Más grande para destacar el inicio */
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1em; /* Tamaño más legible */
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Imagen centrada */
+        .imagen-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Pie de página */
+        footer {
+            background: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prestaciones por desempleo</h1>
+    </header>
+    <nav>
+        <a href="SeguridadSocial.html">Inicio</a>
+        <a href="regimenes.html">Regímenes de la Seguridad Social</a>
+        <a href="afiliacion.html">Afiliación, Altas y Bajas</a>
+        <a href="cotizacion.html">Cotización y Recaudación</a>
+        <a href="prestaciones.html">Prestaciones de la Seguridad Social</a>
+        <a href="desempleo.html">Prestaciones por Desempleo</a>
+        <a href="subsidios.html">Subsidios y Ayudas</a>
+        <a href="derechos.html">Derechos y Obligaciones</a>
+    </nav>
+    <div class="container">
+        <h2>Prestaciones por Desempleo</h2>
+        <img src="desempleo.png" alt="" width="450" height="300" style="display: block; margin: auto;"/>
+    <h3>Requisitos</h3>
+    <ul>
+        <li><strong>Situación legal de desempleo:</strong> Haber perdido el empleo de manera involuntaria (despido, finalización de contrato, reducción de jornada autorizada).</li>
+        <li><strong>Alta en la Seguridad Social:</strong> Haber estado afiliado y en situación de alta o asimilada al alta en el régimen correspondiente.</li>
+        <li><strong>Cotización mínima:</strong> Haber cotizado al menos 360 días en los últimos 6 años antes de quedarse sin empleo.</li>
+        <li><strong>Inscripción como demandante de empleo:</strong> Inscribirse en el Servicio Público de Empleo Estatal (SEPE) y mantenerse disponible para la búsqueda activa de trabajo.</li>
+    </ul>
+    
+    <h3>Duración</h3>
+    <p>La duración de la prestación contributiva depende del tiempo cotizado en los últimos seis años. Se aplica la siguiente tabla:</p>
+    <table>
+        <tr>
+            <th>Días Cotizados</th>
+            <th>Días de Prestación</th>
+        </tr>
+        <tr><td>360-539</td><td>120 (4 meses)</td></tr>
+        <tr><td>540-719</td><td>180 (6 meses)</td></tr>
+        <tr><td>720-899</td><td>240 (8 meses)</td></tr>
+        <tr><td>900-1079</td><td>300 (10 meses)</td></tr>
+        <tr><td>1080-1259</td><td>360 (12 meses)</td></tr>
+        <tr><td>1260-1439</td><td>420 (14 meses)</td></tr>
+        <tr><td>1440-1619</td><td>480 (16 meses)</td></tr>
+        <tr><td>1620-1799</td><td>540 (18 meses)</td></tr>
+        <tr><td>1800-1979</td><td>600 (20 meses)</td></tr>
+        <tr><td>1980 o más</td><td>720 (24 meses)</td></tr>
+    </table>
+    <p><strong>La duración máxima</strong> es de 2 años (24 meses) si se han cotizado al menos 6 años completos.</p>
+    
+    <h3>Cuantía</h3>
+    <p>La cantidad que se recibe mensualmente se calcula en función de la base reguladora, que es el promedio de la base de cotización por contingencias profesionales de los últimos 180 días trabajados.</p>
+    <ul>
+        <li><strong>Primeros 180 días:</strong> Se cobra el 70% de la base reguladora.</li>
+        <li><strong>A partir del día 181:</strong> Se reduce al 60% de la base reguladora.</li>
+    </ul>
+    
+    <h4>Límites de cuantía según la situación familiar</h4>
+    <table>
+        <tr>
+            <th>Situación Familiar</th>
+            <th>Mínimo (80% IPREM)</th>
+            <th>Máximo (175-225% IPREM)</th>
+        </tr>
+        <tr><td>Sin hijos</td><td>560 €</td><td>1.225 €</td></tr>
+        <tr><td>Con un hijo</td><td>749 €</td><td>1.400 €</td></tr>
+        <tr><td>Con dos o más hijos</td><td>749 €</td><td>1.575 €</td></tr>
+    </table>
+    <p><em>(IPREM 2024: 600 € aprox.)</em></p>
+    
+    <p>Los beneficiarios deben renovar su demanda de empleo y participar en programas de formación o búsqueda activa de trabajo.</p>
+</body>
+</html>
+    </div>
+    <footer>
+        <p>© 2024 Seguridad Social en España. Información basada en fuentes oficiales.</p>
+    </footer>
+</body>
+</html>
